@@ -63,8 +63,8 @@
     <Reference Include="Bridge.Html5, Version=17.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Bridge.Html5.17.7.0\lib\net40\Bridge.Html5.dll</HintPath>
     </Reference>
-    <Reference Include="ProductiveRage.Immutable, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ProductiveRage.Immutable.4.1.0\lib\net40\ProductiveRage.Immutable.dll</HintPath>
+    <Reference Include="ProductiveRage.Immutable, Version=4.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ProductiveRage.Immutable.4.2.0\lib\net40\ProductiveRage.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="ProductiveRage.SealedClassVerification, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ProductiveRage.SealedClassVerification.Bridge.1.7.0\lib\net40\ProductiveRage.SealedClassVerification.dll</HintPath>
@@ -72,7 +72,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\packages\ProductiveRage.Immutable.4.1.0\analyzers\dotnet\cs\ProductiveRage.Immutable.Analyser.dll" />
+    <Analyzer Include="..\packages\ProductiveRage.Immutable.4.2.0\analyzers\dotnet\cs\ProductiveRage.Immutable.Analyser.dll" />
     <Analyzer Include="..\packages\ProductiveRage.SealedClassVerification.Bridge.1.7.0\analyzers\dotnet\cs\ProductiveRage.SealedClassVerification.Analyser.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
