@@ -23,3 +23,5 @@ using Bridge;
 [assembly: Guid("f0d9d869-ef75-4f34-8f52-b18e7a6088c6")]
 
 [assembly: InternalsVisibleTo("Bridge.React.Tests")]
+
+[assembly: Convention(Target = ConventionTarget.Member, Notation = Notation.CamelCase)]
